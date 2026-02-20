@@ -13,6 +13,10 @@ on:
 permissions:
   contents: write
 
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref || github.run_id }}
+  cancel-in-progress: true
+
 jobs:
   release:
     runs-on: ubuntu-latest
@@ -34,12 +38,18 @@ jobs:
           git tag release-${{ steps.timestamp.outputs.STAMP }}
           git push origin release-${{ steps.timestamp.outputs.STAMP }}
 
-      - name: Create archive
+      - name: Create archives
         run: |
+          # tar.gz
           git archive \
             --format=tar.gz \
-            --prefix=release-${{ steps.timestamp.outputs.STAMP }}/ \
             -o release-${{ steps.timestamp.outputs.STAMP }}.tar.gz \
+            HEAD
+
+          # zip
+          git archive \
+            --format=zip \
+            -o release-${{ steps.timestamp.outputs.STAMP }}.zip \
             HEAD
 
       - name: Create Release
@@ -47,5 +57,8 @@ jobs:
         with:
           tag_name: release-${{ steps.timestamp.outputs.STAMP }}
           name: release-${{ steps.timestamp.outputs.STAMP }}
-          files: release-${{ steps.timestamp.outputs.STAMP }}.tar.gz
+          files: |
+            release-${{ steps.timestamp.outputs.STAMP }}.tar.gz
+            release-${{ steps.timestamp.outputs.STAMP }}.zip
           generate_release_notes: true
+          prerelease: true
