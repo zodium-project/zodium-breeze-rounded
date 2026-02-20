@@ -25,7 +25,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
         with:
-          fetch-depth: 0   # important for tagging
+          fetch-depth: 0
 
       - name: Generate timestamp
         id: timestamp
@@ -40,16 +40,12 @@ jobs:
 
       - name: Create archives
         run: |
-          # tar.gz
-          git archive \
-            --format=tar.gz \
-            -o release-${{ steps.timestamp.outputs.STAMP }}.tar.gz \
+          git archive --format=tar.gz \
+            -o zodium-breeze-rounded.tar.gz \
             HEAD
 
-          # zip
-          git archive \
-            --format=zip \
-            -o release-${{ steps.timestamp.outputs.STAMP }}.zip \
+          git archive --format=zip \
+            -o zodium-breeze-rounded.zip \
             HEAD
 
       - name: Create Release
@@ -58,7 +54,7 @@ jobs:
           tag_name: release-${{ steps.timestamp.outputs.STAMP }}
           name: release-${{ steps.timestamp.outputs.STAMP }}
           files: |
-            release-${{ steps.timestamp.outputs.STAMP }}.tar.gz
-            release-${{ steps.timestamp.outputs.STAMP }}.zip
+            zodium-breeze-rounded.tar.gz
+            zodium-breeze-rounded.zip
           generate_release_notes: true
           prerelease: false
