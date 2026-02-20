@@ -2,21 +2,21 @@
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
 
 <svg
-   xmlns:dc="http://purl.org/dc/elements/1.1/"
-   xmlns:cc="http://creativecommons.org/ns#"
-   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-   xmlns:svg="http://www.w3.org/2000/svg"
-   xmlns="http://www.w3.org/2000/svg"
-   xmlns:xlink="http://www.w3.org/1999/xlink"
-   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
-   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    version="1.1"
    id="svg2"
    width="48"
    height="48"
    viewBox="0 0 48 48"
    sodipodi:docname="kfourinline.svg"
-   inkscape:version="0.92.3 (2405546, 2018-03-11)">
+   inkscape:version="1.4.1 (unknown)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
   <metadata
      id="metadata8">
     <rdf:RDF>
@@ -25,7 +25,6 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -113,8 +112,8 @@
        inkscape:collect="always"
        xlink:href="#c-1"
        id="linearGradient1039"
-       x1="4"
-       y1="4"
+       x1="6.0329318"
+       y1="6.563262"
        x2="44"
        y2="44"
        gradientUnits="userSpaceOnUse" />
@@ -128,26 +127,35 @@
      guidetolerance="10"
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
-     inkscape:window-width="2560"
-     inkscape:window-height="1245"
+     inkscape:window-width="1920"
+     inkscape:window-height="998"
      id="namedview4"
      showgrid="false"
-     inkscape:zoom="16"
-     inkscape:cx="34.367855"
-     inkscape:cy="24.086725"
+     inkscape:zoom="11.313709"
+     inkscape:cx="21.655145"
+     inkscape:cy="23.643883"
      inkscape:window-x="0"
-     inkscape:window-y="36"
+     inkscape:window-y="0"
      inkscape:window-maximized="1"
-     inkscape:current-layer="svg2">
+     inkscape:current-layer="svg2"
+     inkscape:showpageshadow="2"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1">
     <inkscape:grid
        type="xygrid"
-       id="grid877" />
+       id="grid877"
+       originx="0"
+       originy="0"
+       spacingy="1"
+       spacingx="1"
+       units="px" />
   </sodipodi:namedview>
   <path
-     d="M 4,4 V 43.969 H 44 V 4 Z"
+     d="M 8,4 C 6.1068738,4.0075081 3.9999995,5.6943948 4,8 V 43.969 H 44 V 8 C 44.000128,5.9890227 42.069903,3.9485826 40,4 Z"
      id="path19"
-     style="fill:url(#linearGradient1039);fill-rule:evenodd;fill-opacity:1"
-     inkscape:connector-curvature="0" />
+     style="fill:url(#linearGradient1039);fill-opacity:1;fill-rule:evenodd"
+     inkscape:connector-curvature="0"
+     sodipodi:nodetypes="ccccccc" />
   <path
      inkscape:connector-curvature="0"
      style="opacity:0.2;fill:url(#linearGradient4190);fill-opacity:1;stroke:none;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"

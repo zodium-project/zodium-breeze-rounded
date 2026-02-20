@@ -4,7 +4,7 @@
    height="32"
    version="1.1"
    id="svg32"
-   sodipodi:docname="image.svg"
+   sodipodi:docname="image-x-generic.svg"
    inkscape:version="1.1.1 (3bf5ae0d25, 2021-09-20)"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
@@ -93,11 +93,11 @@
      id="path18"
      style="fill:url(#c)" />
   <path
-     d="m 29.992871,25.668449 a 2.99,2.99 0 0 1 -3,3 H 4.9928715 a 2.99,2.99 0 0 1 -3,-3 v 1.244 c 0,1.662 1.338,3 3,3 H 26.992871 c 1.662,0 3,-1.338 3,-3 z"
+     d="m 30.048955,25.808259 a 2.99,2.99 0 0 1 -3,3 H 5.0489554 a 2.99,2.99 0 0 1 -3,-3 v 1.244 c 0,1.662 1.338,3 3,3 H 27.048955 c 1.662,0 3,-1.338 3,-3 z"
      opacity="0.25"
      id="path20" />
   <path
-     d="M 23,5 H 4.998 c -1.662,0 -3,1.338 -3,3 v 1.156 a 2.99,2.99 0 0 1 3,-3 H 23 Z"
+     d="M 23.002,5.002 H 5 c -1.662,0 -3,1.338 -3,3 v 1.156 a 2.99,2.99 0 0 1 3,-3 h 18.002 z"
      opacity="0.5"
      fill="#ffffff"
      id="path22" />

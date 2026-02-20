@@ -2,20 +2,20 @@
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
 
 <svg
-   xmlns:dc="http://purl.org/dc/elements/1.1/"
-   xmlns:cc="http://creativecommons.org/ns#"
-   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-   xmlns:svg="http://www.w3.org/2000/svg"
-   xmlns="http://www.w3.org/2000/svg"
-   xmlns:xlink="http://www.w3.org/1999/xlink"
-   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
-   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    width="32"
    height="32"
    id="svg5453"
    version="1.1"
-   inkscape:version="0.48.4 r9939"
-   sodipodi:docname="applications-education-mathematics.svg">
+   inkscape:version="1.3.2 (091e20ef0f, 2023-11-25)"
+   sodipodi:docname="applications-education-mathematics.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
   <defs
      id="defs5455">
     <linearGradient
@@ -81,8 +81,8 @@
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
      inkscape:zoom="15.999999"
-     inkscape:cx="3.8900684"
-     inkscape:cy="13.319493"
+     inkscape:cx="18.187501"
+     inkscape:cy="18.312501"
      inkscape:document-units="px"
      inkscape:current-layer="g3068"
      showgrid="true"
@@ -90,66 +90,86 @@
      fit-margin-left="0"
      fit-margin-right="0"
      fit-margin-bottom="0"
-     inkscape:window-width="1864"
-     inkscape:window-height="1060"
-     inkscape:window-x="54"
-     inkscape:window-y="-3"
+     inkscape:window-width="1920"
+     inkscape:window-height="996"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
      inkscape:window-maximized="1"
      inkscape:showpageshadow="false"
      borderlayer="true"
      showguides="true"
-     inkscape:snap-bbox="true">
+     inkscape:snap-bbox="true"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1">
     <inkscape:grid
        type="xygrid"
-       id="grid4063" />
+       id="grid4063"
+       originx="0"
+       originy="0"
+       spacingy="1"
+       spacingx="1"
+       units="px"
+       visible="true" />
     <sodipodi:guide
        position="4.2167969e-05,32.000026"
        orientation="32,0"
-       id="guide4625" />
+       id="guide4625"
+       inkscape:locked="false" />
     <sodipodi:guide
        position="4.2167969e-05,2.6367188e-05"
        orientation="0,31.999969"
-       id="guide4627" />
+       id="guide4627"
+       inkscape:locked="false" />
     <sodipodi:guide
        position="32.000012,2.6367188e-05"
        orientation="-32,0"
-       id="guide4629" />
+       id="guide4629"
+       inkscape:locked="false" />
     <sodipodi:guide
        position="32.000012,32.000026"
        orientation="0,-31.999969"
-       id="guide4631" />
+       id="guide4631"
+       inkscape:locked="false" />
     <sodipodi:guide
        position="2.0000422,30.000026"
        orientation="28,0"
-       id="guide4633" />
+       id="guide4633"
+       inkscape:locked="false" />
     <sodipodi:guide
        position="2.0000422,2.0000264"
        orientation="0,27.999969"
-       id="guide4635" />
+       id="guide4635"
+       inkscape:locked="false" />
     <sodipodi:guide
        position="30,17"
        orientation="-28,0"
-       id="guide4637" />
+       id="guide4637"
+       inkscape:locked="false" />
     <sodipodi:guide
        position="30.000012,30.000026"
        orientation="0,-27.999969"
-       id="guide4639" />
+       id="guide4639"
+       inkscape:locked="false" />
     <sodipodi:guide
        position="9.0000117,24.000271"
        orientation="14,0"
-       id="guide4429" />
+       id="guide4429"
+       inkscape:locked="false" />
     <sodipodi:guide
        position="9.0000117,10.000271"
        orientation="0,14.000031"
-       id="guide4431" />
+       id="guide4431"
+       inkscape:locked="false" />
     <sodipodi:guide
-       position="23.000042,10.000271"
+       position="22.812501,-3.5000022"
        orientation="-14,0"
-       id="guide4433" />
+       id="guide4433"
+       inkscape:locked="false" />
     <sodipodi:guide
        position="23.000042,24.000271"
        orientation="0,-14.000031"
-       id="guide4435" />
+       id="guide4435"
+       inkscape:locked="false" />
   </sodipodi:namedview>
   <metadata
      id="metadata5458">
@@ -159,7 +179,6 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -177,20 +196,15 @@
          height="42.000034"
          width="48.000011"
          id="rect4567"
-         style="fill:url(#linearGradient3085);fill-opacity:1;stroke:none" />
+         style="fill:url(#linearGradient3085);fill-opacity:1;stroke:none"
+         ry="4.406251"
+         rx="4.406251" />
       <path
          id="rect4778"
-         d="m 348.57142,503.798 0,2.1 0,39.9 2,0 46,0 5e-5,-3.14998 -5e-5,-36.75002 0,-2.1 -2,0 -44,0 z m 3.00007,3 41.99996,0 0,36.00002 -41.99996,0 z"
+         d="m 351.72143,503.798 c -1.56838,-0.0515 -3.0504,1.38476 -3.15001,3 v 36.00002 c 0.17301,1.51523 1.60401,2.87786 3.04951,2.99998 h 41.95052 c 1.76525,-0.26766 2.81621,-1.56918 3.00002,-3.14998 l -5e-5,-35.85002 c 0.01,-1.57727 -1.44956,-2.82562 -2.99997,-3 v 0 h -41.95052 z m -0.14994,3 h 41.99996 v 36.00002 h -41.99996 z"
          style="fill:url(#linearGradient3087);fill-opacity:1;stroke:none"
          inkscape:connector-curvature="0"
          sodipodi:nodetypes="cccccccccccccccc" />
-      <rect
-         y="544.29803"
-         x="348.57147"
-         height="1.4999508"
-         width="47.999954"
-         id="rect4799"
-         style="fill:#aa7f41;fill-opacity:1;stroke:none" />
       <path
          id="rect4553"
          d="m 351.57149,506.72982 0,36.0682 0,0 41.99996,0 0,0 0,-36.0682 0,0 z m 1.49994,1.56818 39.00002,0 0,33.00002 -39.00002,0 z"

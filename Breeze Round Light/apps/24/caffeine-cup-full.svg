@@ -4,7 +4,7 @@
    height="24"
    version="1.1"
    id="svg1"
-   sodipodi:docname="caffeine-cup-full.svg"
+   sodipodi:docname="budgie-caffeine-cup-full.svg"
    inkscape:version="1.4.2 (unknown)"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
@@ -20,7 +20,7 @@
      inkscape:pagecheckerboard="0"
      inkscape:deskcolor="#d1d1d1"
      inkscape:zoom="22.627418"
-     inkscape:cx="9.523844"
+     inkscape:cx="9.501747"
      inkscape:cy="15.291183"
      inkscape:current-layer="svg1" />
   <defs
@@ -44,7 +44,7 @@
        style="fill:currentColor;fill-opacity:1;stroke-width:0.244518"
        class="ColorScheme-Text" />
     <path
-       d="m 10.107665,24.203389 c 0,0 -0.5954562,-0.707413 0.374265,-1.864285 0.969385,-1.15822 1.770508,-2.422322 1.684193,-3.186042 -0.097,-0.839586 -0.497673,-1.388852 -1.136287,-1.903062 0,0 0.222888,0.210405 0.316268,1.002447 0.093,0.783279 -0.652766,1.433024 -1.271139,2.022758 -0.6156838,0.591085 -1.2991415,1.454612 -1.0469365,2.281723 0.2107203,0.687852 1.0796365,1.646461 1.0796365,1.646461 z"
+       d="m 10.026622,24.203389 c 0,0 -0.6547874,-1.063491 0.411556,-2.802676 1.065974,-1.741212 1.946921,-3.641602 1.852006,-4.789742 -0.106665,-1.262193 -0.547261,-2.087933 -1.249507,-2.860971 0,0 0.245097,0.316313 0.347781,1.50703 0.102267,1.177544 -0.717807,2.154339 -1.3977943,3.040917 -0.6770304,0.888609 -1.4285876,2.186793 -1.1512529,3.430232 0.2317164,1.034084 1.1872112,2.47521 1.1872112,2.47521 z"
        id="path4-3"
        style="fill:currentColor;fill-opacity:1;stroke-width:0.24452"
        class="ColorScheme-Text" />
