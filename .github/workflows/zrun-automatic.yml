@@ -1,0 +1,51 @@
+name: Auto Release
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+    paths-ignore:
+      - "README.md"
+      - "AUTHORS"
+      - "LICENSE"
+      
+permissions:
+  contents: write
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0   # important for tagging
+
+      - name: Generate timestamp
+        id: timestamp
+        run: echo "STAMP=$(date -u +'%Y-%m-%d-%H-%M-%S')" >> $GITHUB_OUTPUT
+
+      - name: Create and push tag
+        run: |
+          git config user.name "github-actions"
+          git config user.email "github-actions@github.com"
+          git tag release-${{ steps.timestamp.outputs.STAMP }}
+          git push origin release-${{ steps.timestamp.outputs.STAMP }}
+
+      - name: Create archive
+        run: |
+          git archive \
+            --format=tar.gz \
+            --prefix=release-${{ steps.timestamp.outputs.STAMP }}/ \
+            -o release-${{ steps.timestamp.outputs.STAMP }}.tar.gz \
+            HEAD
+
+      - name: Create Release
+        uses: softprops/action-gh-release@v2
+        with:
+          tag_name: release-${{ steps.timestamp.outputs.STAMP }}
+          name: release-${{ steps.timestamp.outputs.STAMP }}
+          files: release-${{ steps.timestamp.outputs.STAMP }}.tar.gz
+          generate_release_notes: true
