@@ -1,4 +1,4 @@
-name: Auto Release
+name: Zrun Auto Release
 
 on:
   workflow_dispatch:
@@ -9,7 +9,7 @@ on:
       - "README.md"
       - "AUTHORS"
       - "LICENSE"
-      
+
 permissions:
   contents: write
 
