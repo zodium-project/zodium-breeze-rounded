@@ -61,4 +61,4 @@ jobs:
             release-${{ steps.timestamp.outputs.STAMP }}.tar.gz
             release-${{ steps.timestamp.outputs.STAMP }}.zip
           generate_release_notes: true
-          prerelease: true
+          prerelease: false
