@@ -1,34 +1,10 @@
 [Icon Theme]
-Name=Breeze Dark
-Name[ar]=نسيم داكن
-Name[ast]=Breeze Dark
-Name[az]=Breeze, tünd mövzu
-Name[ca]=Brisa fosca
-Name[ca@valencia]=Brisa fosca
-Name[cs]=Breeze Tmavé
-Name[da]=Breeze Dark
-Name[de]=Breeze-Dunkel
-Name[el]=Σκοτεινό Breeze
-Name[en_GB]=Breeze Dark
-Name[es]=Brisa oscuro
-Name[et]=Breeze tume
-Name[eu]=Breeze iluna
-Name[fi]=Breeze Dark
-Name[fr]=Breeze sombre
-Name[gd]=Oiteag dhorcha
-Name[gl]=Breeze escuro
-Name[hi]=ब्रीज़ डार्क
-Name[hu]=Breeze Dark
-Name[ia]=Breeze Dark
-Name[id]=Breeze Gelap
-Name[it]=Brezza scuro
-Name[ja]=Breeze ダーク
-[Icon Theme]
-Name=Breeze-Round-Chameleon Dark Icons
-Name[en_GB]=Breeze-Round-Chameleon Dark Icons
+Name=Breeze Round Dark
+Name[en_GB]=Breeze Round Dark
 
-Comment=Breeze-Round-Chameleon Dark Icons
-Comment[en_GB]=Breeze-Round-Chameleon Dark Icons
+Comment=Breeze Round Dark Icons by zodium-project
+Comment[en_GB]=Breeze Round Dark Icons by zodium-project
+
 
 DisplayDepth=32
 
@@ -660,6 +636,9 @@ Type=Scalable
 MinSize=22
 MaxSize=256
 
+########## EOF
+
+########## Extra ( not in chameleon)
 # Gnome symbolic icons
 
 [actions/symbolic]
