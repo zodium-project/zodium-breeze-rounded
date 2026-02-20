@@ -1,9 +1,9 @@
 [Icon Theme]
-Name=Chameleon-Symbolic-Dark-Icons
-Name[en_GB]=Chameleon-Symbolic-Dark-Icons
+Name=Breeze Symbolic Dark
+Name[en_GB]=Breeze Symbolic Dark
 
-Comment=Chameleon-Symbolic-Dark-Icons
-Comment[en_GB]=Chameleon-Symbolic-Dark-Icons
+Comment=Breeze Symbolic Dark by zodium-project
+Comment[en_GB]=Breeze Symbolic Dark by zodium-project
 
 Inherits=breeze,hicolor
 
