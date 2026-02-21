@@ -13,3 +13,6 @@ to fix :
 12. 7z
 13. bluetooth
 14. duplicates in 32x
+15. opera browser
+16. google earth
+17. zen browser ?
