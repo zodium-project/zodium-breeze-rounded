@@ -15,3 +15,4 @@ to fix :
 14. opera browser
 15. google earth
 16. zen browser ?
+17. fix duplicates in Dark x48
