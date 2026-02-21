@@ -12,7 +12,6 @@ to fix :
 11. chrome
 12. 7z
 13. bluetooth
-14. duplicates in 32x ( fixed in light )
-15. opera browser
-16. google earth
-17. zen browser ?
+14. opera browser
+15. google earth
+16. zen browser ?
