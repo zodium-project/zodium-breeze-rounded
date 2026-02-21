@@ -9,6 +9,7 @@ on:
       - "README.md"
       - "AUTHORS"
       - "LICENSE"
+      - "TO-DO.md"
 
 permissions:
   contents: write
