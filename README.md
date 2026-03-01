@@ -1,3 +1,3 @@
-fork of "Breeze Chameleon" with zodium-linux edits/patches
-
-can be use on any Desktop Environment or Distro , icon pack is not Distro/DE specific.
+fork of "Breeze Chameleon" with zodium-linux edits/patches.
+for best experience use this icon pack in KDE only.
+Made for KDE 6+ in mind.
