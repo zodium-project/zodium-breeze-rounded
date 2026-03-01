@@ -8,7 +8,7 @@ Comment[en_GB]=Breeze Dark Icons by Zodium Project
 
 DisplayDepth=32
 
-Inherits=breeze,hicolor
+Inherits=breeze,Adwaita,hicolor
 
 Example=folder
 
